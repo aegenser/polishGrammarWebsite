@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/polishGrammarWebsite/static/css/main.2ae47eeb.chunk.css",
+    "main.js": "/polishGrammarWebsite/static/js/main.a80f06ee.chunk.js",
+    "main.js.map": "/polishGrammarWebsite/static/js/main.a80f06ee.chunk.js.map",
+    "runtime-main.js": "/polishGrammarWebsite/static/js/runtime-main.297afec4.js",
+    "runtime-main.js.map": "/polishGrammarWebsite/static/js/runtime-main.297afec4.js.map",
+    "static/js/2.162003cb.chunk.js": "/polishGrammarWebsite/static/js/2.162003cb.chunk.js",
+    "static/js/2.162003cb.chunk.js.map": "/polishGrammarWebsite/static/js/2.162003cb.chunk.js.map",
+    "static/js/3.e9905222.chunk.js": "/polishGrammarWebsite/static/js/3.e9905222.chunk.js",
+    "static/js/3.e9905222.chunk.js.map": "/polishGrammarWebsite/static/js/3.e9905222.chunk.js.map",
+    "index.html": "/polishGrammarWebsite/index.html",
+    "static/css/main.2ae47eeb.chunk.css.map": "/polishGrammarWebsite/static/css/main.2ae47eeb.chunk.css.map",
+    "static/js/2.162003cb.chunk.js.LICENSE.txt": "/polishGrammarWebsite/static/js/2.162003cb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.297afec4.js",
+    "static/js/2.162003cb.chunk.js",
+    "static/css/main.2ae47eeb.chunk.css",
+    "static/js/main.a80f06ee.chunk.js"
+  ]
+}
