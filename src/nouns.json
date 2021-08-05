@@ -1,0 +1,350 @@
+{
+  "masculine" : {
+    "virile" : [
+      {
+        "is_pluralization_execption" : false,
+        "is_declension_execption" : false,
+        "animate" : true,
+        "singular" : {
+          "mianownik" : "człowiek",
+          "dopełniacz" : "człowieka",
+          "celownik" : "człowiekowi",
+          "biernik" : "człowieka",
+          "narzędnik" : "człowiekiem",
+          "miejscownik" : "człowieku",
+          "wołacz": "człowieku"
+        },
+        "plural" : {
+          "mianownik" : "ludzie",
+          "dopełniacz" : "ludzi",
+          "celownik" : "ludziom",
+          "biernik" : "ludzi",
+          "narzędnik" : "ludźmi",
+          "miejscownik" : "ludziach",
+          "wołacz": "ludzie"
+        }
+      },
+      {
+        "is_pluralization_execption" : false,
+        "is_declension_execption" : false,
+        "animate" : true,
+        "singular" : {
+          "mianownik" : "profesor",
+          "dopełniacz" : "profesora",
+          "celownik" : "profesorowi",
+          "biernik" : "profesora",
+          "narzędnik" : "profesorem",
+          "miejscownik" : "profesorze",
+          "wołacz": "profesorze"
+        },
+        "plural" : {
+          "mianownik" : "profesorowie",
+          "dopełniacz" : "profesorów",
+          "celownik" : "profesorom",
+          "biernik" : "profesorów",
+          "narzędnik" : "profesorami",
+          "miejscownik" : "profesorach",
+          "wołacz": "profesorowie"
+        }
+      },
+      {
+        "is_pluralization_execption" : false,
+        "is_declension_execption" : false,
+        "animate" : true,
+        "singular" : {
+          "mianownik" : "nauczyciel",
+          "dopełniacz" : "nauczyciela",
+          "celownik" : "nauczycielowi",
+          "biernik" : "nauczyciela",
+          "narzędnik" : "nauczycielem",
+          "miejscownik" : "nauczycielu",
+          "wołacz": "nauczycielu"
+        },
+        "plural" : {
+          "mianownik" : "nauczyciele",
+          "dopełniacz" : "nauczycieli",
+          "celownik" : "nauczycielom",
+          "biernik" : "nauczycieli",
+          "narzędnik" : "nauczycielami",
+          "miejscownik" : "nauczycielach",
+          "wołacz": "nauczyciele"
+        }
+      }
+    ],
+    "nonvirile" : [
+      {
+        "is_pluralization_execption": false,
+        "is_declension_execption": false,
+        "animate": false,
+        "singular": {
+          "mianownik": "dom",
+          "dopełniacz": "domu",
+          "celownik": "domowi",
+          "biernik": "dom",
+          "narzędnik": "domem",
+          "miejscownik": "domu",
+          "wołacz": "domu"
+        },
+        "plural": {
+          "mianownik": "domy",
+          "dopełniacz": "domów",
+          "celownik": "domom",
+          "biernik": "domy",
+          "narzędnik": "domami",
+          "miejscownik": "domach",
+          "wołacz": "domy"
+        }
+      },
+      {
+        "is_pluralization_execption" : false,
+        "is_declension_execption" : false,
+        "animate" : true,
+        "singular" : {
+          "mianownik" : "pies",
+          "dopełniacz" : "psa",
+          "celownik" : "psu",
+          "biernik" : "psa",
+          "narzędnik" : "psem",
+          "miejscownik" : "psie",
+          "wołacz": "psie"
+        },
+        "plural" : {
+          "mianownik" : "psy",
+          "dopełniacz" : "psów",
+          "celownik" : "psom",
+          "biernik" : "psy",
+          "narzędnik" : "psami",
+          "miejscownik" : "psach",
+          "wołacz": "psy"
+        }
+      },
+      {
+        "is_pluralization_execption" : false,
+        "is_declension_execption" : false,
+        "animate" : false,
+        "singular" : {
+          "mianownik" : "stół",
+          "dopełniacz" : "stołu",
+          "celownik" : "stołowi",
+          "biernik" : "stół",
+          "narzędnik" : "stołem",
+          "miejscownik" : "stole",
+          "wołacz": "stole"
+        },
+        "plural" : {
+          "mianownik" : "stoły",
+          "dopełniacz" : "stołów",
+          "celownik" : "stołom",
+          "biernik" : "stoły",
+          "narzędnik" : "stołami",
+          "miejscownik" : "stołach",
+          "wołacz": "stoły"
+        }
+      },
+      {
+        "is_pluralization_execption" : false,
+        "is_declension_execption" : false,
+        "animate" : true,
+        "singular" : {
+          "mianownik" : "smok",
+          "dopełniacz" : "smoka",
+          "celownik" : "smokowi",
+          "biernik" : "smoka",
+          "narzędnik" : "smokiem",
+          "miejscownik" : "smoku",
+          "wołacz": "smoku"
+        },
+        "plural" : {
+          "mianownik" : "smoki",
+          "dopełniacz" : "smoków",
+          "celownik" : "smokom",
+          "biernik" : "smoki",
+          "narzędnik" : "smokami",
+          "miejscownik" : "smokach",
+          "wołacz": "smoki"
+        }
+      },
+      {
+        "is_pluralization_execption" : false,
+        "is_declension_execption" : false,
+        "animate" : false,
+        "singular" : {
+          "mianownik" : "telefon",
+          "dopełniacz" : "telefonu",
+          "celownik" : "telefonowi",
+          "biernik" : "telefon",
+          "narzędnik" : "telefonem",
+          "miejscownik" : "telefonie",
+          "wołacz": "telefonie"
+        },
+        "plural" : {
+          "mianownik" : "telefony",
+          "dopełniacz" : "telefonów",
+          "celownik" : "telefonom",
+          "biernik" : "telefony",
+          "narzędnik" : "telefonami",
+          "miejscownik" : "telefonach",
+          "wołacz": "telefony"
+        }
+      }
+    ]
+  },
+  "feminine" : [
+    {
+      "is_pluralization_execption": false,
+      "is_declension_execption": false,
+      "singular": {
+        "mianownik": "miłość",
+        "dopełniacz": "miłości",
+        "celownik": "miłości",
+        "biernik": "miłość",
+        "narzędnik": "miłością",
+        "miejscownik": "miłości",
+        "wołacz": "miłości"
+      },
+      "plural": {
+        "mianownik": "miłości",
+        "dopełniacz": "miłości",
+        "celownik": "miłościom",
+        "biernik": "miłości",
+        "narzędnik": "miłościami",
+        "miejscownik": "miłościach",
+        "wołacz": "miłości"
+      }
+    },
+    {
+      "is_pluralization_execption" : false,
+      "is_declension_execption" : false,
+      "singular" : {
+        "mianownik" : "książka",
+        "dopełniacz" : "książki",
+        "celownik" : "książce",
+        "biernik" : "książkę",
+        "narzędnik" : "książką",
+        "miejscownik" : "książce",
+        "wołacz": "książko"
+      },
+      "plural" : {
+        "mianownik" : "książki",
+        "dopełniacz" : "książek",
+        "celownik" : "książkom",
+        "biernik" : "książki",
+        "narzędnik" : "książkami",
+        "miejscownik" : "książkach",
+        "wołacz": "książki"
+      }
+    },
+    {
+      "is_pluralization_execption" : false,
+      "is_declension_execption" : false,
+      "singular" : {
+        "mianownik" : "torba",
+        "dopełniacz" : "torby",
+        "celownik" : "torbie",
+        "biernik" : "torbę",
+        "narzędnik" : "torbą",
+        "miejscownik" : "torbie",
+        "wołacz": "torbo"
+      },
+      "plural" : {
+        "mianownik" : "torby",
+        "dopełniacz" : "toreb",
+        "celownik" : "torbom",
+        "biernik" : "torby",
+        "narzędnik" : "torbami",
+        "miejscownik" : "torbach",
+        "wołacz": "torby"
+      }
+    },
+    {
+      "is_pluralization_execption" : false,
+      "is_declension_execption" : false,
+      "singular" : {
+        "mianownik" : "nauczycielka",
+        "dopełniacz" : "nauczycielki",
+        "celownik" : "nauczycielce",
+        "biernik" : "nauczycielkę",
+        "narzędnik" : "nauczycielką",
+        "miejscownik" : "nauczycielce",
+        "wołacz": "nauczycielko"
+      },
+      "plural" : {
+        "mianownik" : "nauczycielki",
+        "dopełniacz" : "nauczycielek",
+        "celownik" : "nauczycielkom",
+        "biernik" : "nauczycielki",
+        "narzędnik" : "nauczycielkami",
+        "miejscownik" : "nauczycielkach",
+        "wołacz": "nauczycielki"
+      }
+    }
+  ],
+  "neuter" : [
+    {
+      "is_pluralization_execption" : false,
+      "is_declension_execption" : false,
+      "singular" : {
+        "mianownik" : "życie",
+        "dopełniacz" : "życia",
+        "celownik" : "życiu",
+        "biernik" : "życie",
+        "narzędnik" : "życiem",
+        "miejscownik" : "życiu",
+        "wołacz": "życie"
+      },
+      "plural" : {
+        "mianownik" : "życia",
+        "dopełniacz" : "żyć",
+        "celownik" : "życiom",
+        "biernik" : "życia",
+        "narzędnik" : "życiami",
+        "miejscownik" : "życiach",
+        "wołacz": "życia"
+      }
+    },
+    {
+      "is_pluralization_execption" : false,
+      "is_declension_execption" : false,
+      "singular" : {
+        "mianownik" : "dziecko",
+        "dopełniacz" : "dziecka",
+        "celownik" : "dziecku",
+        "biernik" : "dziecko",
+        "narzędnik" : "dzieckiem",
+        "miejscownik" : "dziecku",
+        "wołacz": "dziecko"
+      },
+      "plural" : {
+        "mianownik" : "dzieci",
+        "dopełniacz" : "dzieci",
+        "celownik" : "dzieciom",
+        "biernik" : "dzieci",
+        "narzędnik" : "dziećmi",
+        "miejscownik" : "dzieciach",
+        "wołacz": "dzieci"
+      }
+    },
+    {
+      "is_pluralization_execption" : false,
+      "is_declension_execption" : false,
+      "singular" : {
+        "mianownik" : "muzeum",
+        "dopełniacz" : "muzeum",
+        "celownik" : "muzeum",
+        "biernik" : "muzeum",
+        "narzędnik" : "muzeum",
+        "miejscownik" : "muzeum",
+        "wołacz": "muzeum"
+      },
+      "plural" : {
+        "mianownik" : "muzea",
+        "dopełniacz" : "muzeów",
+        "celownik" : "muzeom",
+        "biernik" : "muzea",
+        "narzędnik" : "muzeami",
+        "miejscownik" : "muzeach",
+        "wołacz": "muzea"
+      }
+    }
+  ]
+}

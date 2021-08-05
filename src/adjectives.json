@@ -1,0 +1,131 @@
+[
+  {
+    "masculine" : {
+      "mianownik" : "zielony",
+      "dopełniacz" : "zielonego",
+      "celownik" : "zielonemu",
+      "biernik" : "zielonego",
+      "narzędnik" : "zielonym",
+      "miejscownik" : "zielonym"
+    },
+    "neuter" : {
+      "mianownik" : "zielone",
+      "dopełniacz" : "zielonego",
+      "celownik" : "zielonemu",
+      "biernik" : "zielone",
+      "narzędnik" : "zielonym",
+      "miejscownik" : "zielonym"
+    },
+    "feminine" : {
+      "mianownik" : "zielona",
+      "dopełniacz" : "zielonej",
+      "celownik" : "zielonej",
+      "biernik" : "zieloną",
+      "narzędnik" : "zieloną",
+      "miejscownik" : "zielonej"
+    },
+    "virile" : {
+      "mianownik" : "zieloni",
+      "dopełniacz" : "zielonych",
+      "celownik" : "zielonym",
+      "biernik" : "zielonych",
+      "narzędnik" : "zielonymi",
+      "miejscownik" : "zielonych"
+    },
+    "nonvirile" : {
+      "mianownik" : "zielone",
+      "dopełniacz" : "zielonych",
+      "celownik" : "zielonym",
+      "biernik" : "zielone",
+      "narzędnik" : "zielonymi",
+      "miejscownik" : "zielonych"
+    },
+    "masc_inan_biernik" : "zielony"
+  },
+  {
+    "masculine" : {
+      "mianownik" : "polski",
+      "dopełniacz" : "polskiego",
+      "celownik" : "polskiemu",
+      "biernik" : "polskiego",
+      "narzędnik" : "polskim",
+      "miejscownik" : "polskim"
+    },
+    "neuter" : {
+      "mianownik" : "polskie",
+      "dopełniacz" : "polskiego",
+      "celownik" : "polskiemu",
+      "biernik" : "polskie",
+      "narzędnik" : "polskim",
+      "miejscownik" : "polskim"
+    },
+    "feminine" : {
+      "mianownik" : "polska",
+      "dopełniacz" : "polskiej",
+      "celownik" : "polskiej",
+      "biernik" : "polską",
+      "narzędnik" : "polską",
+      "miejscownik" : "polskiej"
+    },
+    "virile" : {
+      "mianownik" : "polscy",
+      "dopełniacz" : "polskich",
+      "celownik" : "polskim",
+      "biernik" : "polskich",
+      "narzędnik" : "polskimi",
+      "miejscownik" : "polskich"
+    },
+    "nonvirile" : {
+      "mianownik" : "polskie",
+      "dopełniacz" : "polskich",
+      "celownik" : "polskim",
+      "biernik" : "polskie",
+      "narzędnik" : "polskimi",
+      "miejscownik" : "polskich"
+    },
+    "masc_inan_biernik" : "polski"
+  },
+  {
+    "masculine" : {
+      "mianownik" : "żółty",
+      "dopełniacz" : "żółtego",
+      "celownik" : "żółtemu",
+      "biernik" : "żółtego",
+      "narzędnik" : "żółtym",
+      "miejscownik" :"żółtym"
+    },
+    "neuter" : {
+      "mianownik" : "żółte",
+      "dopełniacz" : "żółtego",
+      "celownik" : "żółtemu",
+      "biernik" : "żółte",
+      "narzędnik" : "żółtym",
+      "miejscownik" :"żółtym"
+    },
+    "feminine" : {
+      "mianownik" : "żółte",
+      "dopełniacz" : "żółtej",
+      "celownik" : "żółtej",
+      "biernik" : "żółtą",
+      "narzędnik" : "żółtą",
+      "miejscownik" : "żółtej"
+    },
+    "virile" : {
+      "mianownik" : "żółci",
+      "dopełniacz" : "żółtych",
+      "celownik" : "żółtym",
+      "biernik" : "żółtych",
+      "narzędnik" : "żółtymi",
+      "miejscownik" : "żółtych"
+    },
+    "nonvirile" : {
+      "mianownik" : "żółte",
+      "dopełniacz" : "żółtych",
+      "celownik" : "żółtym",
+      "biernik" : "żółte",
+      "narzędnik" : "żółtymi",
+      "miejscownik" : "żółtych"
+    },
+    "masc_inan_biernik" : "żółty"
+  }
+]
