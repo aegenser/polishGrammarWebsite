@@ -170,5 +170,48 @@
       "miejscownik": "wysokich"
     },
     "masc_inan_biernik": "wysoki"
+  },
+  {
+    "masculine": {
+      "mianownik": "wielki",
+      "dopełniacz": "wielkiego",
+      "celownik": "wielkiemu",
+      "biernik": "wielkiego",
+      "narzędnik": "wielkim",
+      "miejscownik": "wielkim"
+    },
+    "neuter": {
+      "mianownik": "wielkie",
+      "dopełniacz": "wielkiego",
+      "celownik": "wielkiemu",
+      "biernik": "wielkie",
+      "narzędnik": "wielkim",
+      "miejscownik": "wielkim"
+    },
+    "feminine": {
+      "mianownik": "wielka",
+      "dopełniacz": "wielkiej",
+      "celownik": "wielkiej",
+      "biernik": "wielką",
+      "narzędnik": "wielką",
+      "miejscownik": "wielkiej"
+    },
+    "virile": {
+      "mianownik": "wielcy",
+      "dopełniacz": "wielkich",
+      "celownik": "wielkim",
+      "biernik": "wielkich",
+      "narzędnik": "wielkimi",
+      "miejscownik": "wielkich"
+    },
+    "nonvirile": {
+      "mianownik": "wielkie",
+      "dopełniacz": "wielkich",
+      "celownik": "wielkim",
+      "biernik": "wielkie",
+      "narzędnik": "wielkimi",
+      "miejscownik": "wielkich"
+    },
+    "masc_inan_biernik": "wielki"
   }
 ]
