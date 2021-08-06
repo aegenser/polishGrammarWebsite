@@ -69,6 +69,29 @@
           "miejscownik" : "nauczycielach",
           "wołacz": "nauczyciele"
         }
+      },
+      {
+        "is_pluralization_execption": false,
+        "is_declension_execption": false,
+        "animate": true,
+        "singular": {
+          "mianownik": "pan",
+          "dopełniacz": "pana",
+          "celownik": "panu",
+          "biernik": "pana",
+          "narzędnik": "panem",
+          "miejscownik": "panu",
+          "wołacz": "panie"
+        },
+        "plural": {
+          "mianownik": "panowie",
+          "dopełniacz": "panów",
+          "celownik": "panom",
+          "biernik": "panów",
+          "narzędnik": "panami",
+          "miejscownik": "panach",
+          "wołacz": "panowie"
+        }
       }
     ],
     "nonvirile" : [
@@ -276,6 +299,50 @@
         "narzędnik" : "nauczycielkami",
         "miejscownik" : "nauczycielkach",
         "wołacz": "nauczycielki"
+      }
+    },
+    {
+      "is_pluralization_execption": false,
+      "is_declension_execption": false,
+      "singular": {
+        "mianownik": "żona",
+        "dopełniacz": "żony",
+        "celownik": "żonie",
+        "biernik": "żonę",
+        "narzędnik": "żoną",
+        "miejscownik": "żonie",
+        "wołacz": "żono"
+      },
+      "plural": {
+        "mianownik": "żony",
+        "dopełniacz": "żon",
+        "celownik": "żonom",
+        "biernik": "żony",
+        "narzędnik": "żonami",
+        "miejscownik": "żonach",
+        "wołacz": "żony"
+      }
+    },
+    {
+      "is_pluralization_execption": false,
+      "is_declension_execption": false,
+      "singular": {
+        "mianownik": "pani",
+        "dopełniacz": "pani",
+        "celownik": "pani",
+        "biernik": "panią",
+        "narzędnik": "panią",
+        "miejscownik": "pani",
+        "wołacz": "pani"
+      },
+      "plural": {
+        "mianownik": "panie",
+        "dopełniacz": "pań",
+        "celownik": "paniom",
+        "biernik": "panie",
+        "narzędnik": "paniami",
+        "miejscownik": "paniach",
+        "wołacz": "panie"
       }
     }
   ],

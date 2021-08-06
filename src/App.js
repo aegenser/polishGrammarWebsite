@@ -1,11 +1,21 @@
 import React, { useState } from 'react';
 import { TextField, Button, Typography, Grid, Box, IconButton, FormGroup, Radio, Checkbox, FormControlLabel, FormLabel } from '@material-ui/core';
 import { ArrowBack } from '@material-ui/icons';
+import { createTheme } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/styles';
 
 const NOUNS = require('./nouns.json');
 const ADJECTIVES = require('./adjectives.json');
 const VIRILITIES = ['virile', 'nonvirile'];
 const PLURALITIES = ['singular', 'plural'];
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#dc143c",
+    },
+  },
+});
 
 console.log(NOUNS);
 
@@ -287,163 +297,167 @@ function App() {
 
   if (!inPracticeMode) {
     return (
+      <ThemeProvider theme={theme}>
+        <div className="App">
+          <Box m={2}>
+            <Box m='auto' align='center'>
+              <Grid container style={{maxWidth: '1000px'}} spacing={2} alignContent='center'>
+                <Grid container item xs={12}>
+                  <Typography variant='h3'> Polish Grammar Website </Typography>
+                </Grid>
+                <Grid container item xs={12} alignContent='center'>
+                  <FormGroup>
+                    <FormLabel component='legend'> What would you like to practice? </FormLabel>
+                    <FormGroup row>
+                      <FormControlLabel
+                        control={
+                          <Radio
+                            checked={isDecline}
+                            onChange={(event) => setIsDecline(true)}
+                            color="primary"
+                          />
+                        }
+                        label="Declension"
+                      />
+                      <FormControlLabel
+                        control={
+                          <Radio
+                            checked={!isDecline}
+                            onChange={(event) => setIsDecline(false)}
+                            color="primary"
+                          />
+                        }
+                        label="Pluralization"
+                      />
+                    </FormGroup>
+                    {casesOption}
+                    <FormLabel component='legend'> With or without adjectives? </FormLabel>
+                    <FormGroup row>
+                      <FormControlLabel
+                        control={
+                          <Radio
+                            checked={withAdjectives}
+                            onChange={(event) => setWithAdjectives(true)}
+                            color="primary"
+                          />
+                        }
+                        label="With Adjectives"
+                      />
+                      <FormControlLabel
+                        control={
+                          <Radio
+                            checked={!withAdjectives}
+                            onChange={(event) => setWithAdjectives(false)}
+                            color="primary"
+                          />
+                        }
+                        label="Without Adjectives"
+                      />
+                    </FormGroup>
+                    {pluralOption}
+                    <FormLabel component='legend'> What Genders? </FormLabel>
+                    <FormLabel component='legend' error={true}> {genderError} </FormLabel>
+                    <FormGroup row>
+                      <FormControlLabel
+                        control={
+                          <Checkbox
+                            checked={gender.masculine}
+                            onChange={(event) => setGenderWithError({ ...gender, masculine: event.target.checked })}
+                            color="primary"
+                          />
+                        }
+                        label="Masculine"
+                      />
+                      <FormControlLabel
+                        control={
+                          <Checkbox
+                            checked={gender.feminine}
+                            onChange={(event) => setGenderWithError({ ...gender, feminine: event.target.checked })}
+                            color="primary"
+                          />
+                        }
+                        label="Feminine"
+                      />
+                      <FormControlLabel
+                        control={
+                          <Checkbox
+                            checked={gender.neuter}
+                            onChange={(event) => setGenderWithError({ ...gender, neuter: event.target.checked })}
+                            color="primary"
+                          />
+                        }
+                        label="Neuter"
+                      />
+                    </FormGroup>
+                    {virileOption}
+                  </FormGroup>
+                </Grid>
+                <Grid container item xs={12}>
+                  <Button onClick={() => {
+                      if ((isDecline && caseError !== '') || genderError !== '') {
+                        return;
+                      }
+                      generateCall();
+                      setInPracticeMode(true);
+                    }}>
+                    Begin Practice!
+                  </Button>
+                </Grid>
+              </Grid>
+            </Box>
+          </Box>
+        </div>
+      </ThemeProvider>
+    )
+  }
+
+  return (
+    <ThemeProvider theme={theme}>
       <div className="App">
         <Box m={2}>
           <Box m='auto' align='center'>
-            <Grid container style={{maxWidth: '1000px'}} spacing={2} alignContent='center'>
-              <Grid container item xs={12}>
-                <Typography variant='h3'> Polish Grammar Practice </Typography>
-              </Grid>
-              <Grid container item xs={12} alignContent='center'>
-                <FormGroup>
-                  <FormLabel component='legend'> What would you like to practice? </FormLabel>
-                  <FormGroup row>
-                    <FormControlLabel
-                      control={
-                        <Radio
-                          checked={isDecline}
-                          onChange={(event) => setIsDecline(true)}
-                          color="primary"
-                        />
-                      }
-                      label="Declension"
-                    />
-                    <FormControlLabel
-                      control={
-                        <Radio
-                          checked={!isDecline}
-                          onChange={(event) => setIsDecline(false)}
-                          color="primary"
-                        />
-                      }
-                      label="Pluralization"
-                    />
-                  </FormGroup>
-                  {casesOption}
-                  <FormLabel component='legend'> With or without adjectives? </FormLabel>
-                  <FormGroup row>
-                    <FormControlLabel
-                      control={
-                        <Radio
-                          checked={withAdjectives}
-                          onChange={(event) => setWithAdjectives(true)}
-                          color="primary"
-                        />
-                      }
-                      label="With Adjectives"
-                    />
-                    <FormControlLabel
-                      control={
-                        <Radio
-                          checked={!withAdjectives}
-                          onChange={(event) => setWithAdjectives(false)}
-                          color="primary"
-                        />
-                      }
-                      label="Without Adjectives"
-                    />
-                  </FormGroup>
-                  {pluralOption}
-                  <FormLabel component='legend'> What Genders? </FormLabel>
-                  <FormLabel component='legend' error={true}> {genderError} </FormLabel>
-                  <FormGroup row>
-                    <FormControlLabel
-                      control={
-                        <Checkbox
-                          checked={gender.masculine}
-                          onChange={(event) => setGenderWithError({ ...gender, masculine: event.target.checked })}
-                          color="primary"
-                        />
-                      }
-                      label="Masculine"
-                    />
-                    <FormControlLabel
-                      control={
-                        <Checkbox
-                          checked={gender.feminine}
-                          onChange={(event) => setGenderWithError({ ...gender, feminine: event.target.checked })}
-                          color="primary"
-                        />
-                      }
-                      label="Feminine"
-                    />
-                    <FormControlLabel
-                      control={
-                        <Checkbox
-                          checked={gender.neuter}
-                          onChange={(event) => setGenderWithError({ ...gender, neuter: event.target.checked })}
-                          color="primary"
-                        />
-                      }
-                      label="Neuter"
-                    />
-                  </FormGroup>
-                  {virileOption}
-                </FormGroup>
+            <Grid container style={{maxWidth: '1000px'}} spacing={2}>
+              <Grid container item xs={12} alignContent='left'>
+                <IconButton onClick={() => {
+                  setInPracticeMode(false);
+                  setMessage('');
+                  setErrorMessage('');
+                }}>
+                  <ArrowBack/>
+                </IconButton>
               </Grid>
               <Grid container item xs={12}>
-                <Button onClick={() => {
-                    if ((isDecline && caseError !== '') || genderError !== '') {
-                      return;
-                    }
-                    generateCall();
-                    setInPracticeMode(true);
-                  }}>
-                  Begin Practice!
+                <Typography variant='h6'> What is {callAdjective !== null ? getAdjectiveForQuestion() : ''} {callNoun[callPlurality].mianownik} {isDecline ? `in ${callCase}` : 'plural'}? </Typography>
+              </Grid>
+              <Grid container item xs={12}>
+                <Typography variant='subtitle'> {message} </Typography>
+                <Typography color='error' variant='subtitle'> {errorMessage} </Typography>
+              </Grid>
+              <Grid container item xs={8}>
+                <TextField variant='outlined' onKeyDown={handleKeyDown} inputRef={input => input && input.focus()} value={practiceInput} label="Answer: " multiline={false} fullWidth={true} onChange={function(value) {
+                if (value.target.value != null) {
+                  setPracticeInput(value.target.value);
+                } else {
+                  setPracticeInput("");
+                }
+                }}>
+              </TextField>
+              </Grid>
+              <Grid container item xs={2}>
+                <Button onClick={() => handleEnter()}>
+                  Enter
+                </Button>
+              </Grid>
+              <Grid container item xs={2}>
+                <Button onClick={() => showAnswer()}>
+                  Show Answer
                 </Button>
               </Grid>
             </Grid>
           </Box>
         </Box>
       </div>
-    )
-  }
-
-  return (
-    <div className="App">
-      <Box m={2}>
-        <Box m='auto' align='center'>
-          <Grid container style={{maxWidth: '1000px'}} spacing={2}>
-            <Grid container item xs={12} alignContent='left'>
-              <IconButton onClick={() => {
-                setInPracticeMode(false);
-                setMessage('');
-                setErrorMessage('');
-              }}>
-                <ArrowBack/>
-              </IconButton>
-            </Grid>
-            <Grid container item xs={12}>
-              <Typography variant='h6'> What is {callAdjective !== null ? getAdjectiveForQuestion() : ''} {callNoun[callPlurality].mianownik} {isDecline ? `in ${callCase}` : 'plural'}? </Typography>
-            </Grid>
-            <Grid container item xs={12}>
-              <Typography variant='subtitle'> {message} </Typography>
-              <Typography color='error' variant='subtitle'> {errorMessage} </Typography>
-            </Grid>
-            <Grid container item xs={8}>
-              <TextField variant='outlined' onKeyDown={handleKeyDown} inputRef={input => input && input.focus()} value={practiceInput} label="Answer: " multiline={false} fullWidth={true} onChange={function(value) {
-              if (value.target.value != null) {
-                setPracticeInput(value.target.value);
-              } else {
-                setPracticeInput("");
-              }
-              }}>
-            </TextField>
-            </Grid>
-            <Grid container item xs={2}>
-              <Button onClick={() => handleEnter()}>
-                Enter
-              </Button>
-            </Grid>
-            <Grid container item xs={2}>
-              <Button onClick={() => showAnswer()}>
-                Show Answer
-              </Button>
-            </Grid>
-          </Grid>
-        </Box>
-      </Box>
-    </div>
+    </ThemeProvider>
   );
 }
 

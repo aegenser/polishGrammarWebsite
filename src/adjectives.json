@@ -213,5 +213,48 @@
       "miejscownik": "wielkich"
     },
     "masc_inan_biernik": "wielki"
+  },
+  {
+    "masculine": {
+      "mianownik": "szczęśliwy",
+      "dopełniacz": "szczęśliwego",
+      "celownik": "szczęśliwemu",
+      "biernik": "szczęśliwego",
+      "narzędnik": "szczęśliwym",
+      "miejscownik": "szczęśliwym"
+    },
+    "neuter": {
+      "mianownik": "szczęśliwe",
+      "dopełniacz": "szczęśliwego",
+      "celownik": "szczęśliwemu",
+      "biernik": "szczęśliwe",
+      "narzędnik": "szczęśliwym",
+      "miejscownik": "szczęśliwym"
+    },
+    "feminine": {
+      "mianownik": "szczęśliwa",
+      "dopełniacz": "szczęśliwej",
+      "celownik": "szczęśliwej",
+      "biernik": "szczęśliwą",
+      "narzędnik": "szczęśliwą",
+      "miejscownik": "szczęśliwej"
+    },
+    "virile": {
+      "mianownik": "szczęśliwi",
+      "dopełniacz": "szczęśliwych",
+      "celownik": "szczęśliwym",
+      "biernik": "szczęśliwych",
+      "narzędnik": "szczęśliwymi",
+      "miejscownik": "szczęśliwych"
+    },
+    "nonvirile": {
+      "mianownik": "szczęśliwe",
+      "dopełniacz": "szczęśliwych",
+      "celownik": "szczęśliwym",
+      "biernik": "szczęśliwe",
+      "narzędnik": "szczęśliwymi",
+      "miejscownik": "szczęśliwych"
+    },
+    "masc_inan_biernik": "szczęśliwy"
   }
 ]
