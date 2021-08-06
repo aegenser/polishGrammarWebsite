@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/polishGrammarWebsite/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/polishGrammarWebsite/static/js/main.48a94b96.chunk.js",
-    "main.js.map": "/polishGrammarWebsite/static/js/main.48a94b96.chunk.js.map",
-    "runtime-main.js": "/polishGrammarWebsite/static/js/runtime-main.297afec4.js",
-    "runtime-main.js.map": "/polishGrammarWebsite/static/js/runtime-main.297afec4.js.map",
-    "static/js/2.162003cb.chunk.js": "/polishGrammarWebsite/static/js/2.162003cb.chunk.js",
-    "static/js/2.162003cb.chunk.js.map": "/polishGrammarWebsite/static/js/2.162003cb.chunk.js.map",
-    "static/js/3.e9905222.chunk.js": "/polishGrammarWebsite/static/js/3.e9905222.chunk.js",
-    "static/js/3.e9905222.chunk.js.map": "/polishGrammarWebsite/static/js/3.e9905222.chunk.js.map",
+    "main.js": "/polishGrammarWebsite/static/js/main.9c51e542.chunk.js",
+    "main.js.map": "/polishGrammarWebsite/static/js/main.9c51e542.chunk.js.map",
+    "runtime-main.js": "/polishGrammarWebsite/static/js/runtime-main.5ebf6109.js",
+    "runtime-main.js.map": "/polishGrammarWebsite/static/js/runtime-main.5ebf6109.js.map",
+    "static/js/2.be921353.chunk.js": "/polishGrammarWebsite/static/js/2.be921353.chunk.js",
+    "static/js/2.be921353.chunk.js.map": "/polishGrammarWebsite/static/js/2.be921353.chunk.js.map",
+    "static/js/3.f55a0231.chunk.js": "/polishGrammarWebsite/static/js/3.f55a0231.chunk.js",
+    "static/js/3.f55a0231.chunk.js.map": "/polishGrammarWebsite/static/js/3.f55a0231.chunk.js.map",
     "index.html": "/polishGrammarWebsite/index.html",
     "static/css/main.2ae47eeb.chunk.css.map": "/polishGrammarWebsite/static/css/main.2ae47eeb.chunk.css.map",
-    "static/js/2.162003cb.chunk.js.LICENSE.txt": "/polishGrammarWebsite/static/js/2.162003cb.chunk.js.LICENSE.txt"
+    "static/js/2.be921353.chunk.js.LICENSE.txt": "/polishGrammarWebsite/static/js/2.be921353.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.297afec4.js",
-    "static/js/2.162003cb.chunk.js",
+    "static/js/runtime-main.5ebf6109.js",
+    "static/js/2.be921353.chunk.js",
     "static/css/main.2ae47eeb.chunk.css",
-    "static/js/main.48a94b96.chunk.js"
+    "static/js/main.9c51e542.chunk.js"
   ]
 }
