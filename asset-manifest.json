@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/polishGrammarWebsite/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/polishGrammarWebsite/static/js/main.9c51e542.chunk.js",
-    "main.js.map": "/polishGrammarWebsite/static/js/main.9c51e542.chunk.js.map",
+    "main.js": "/polishGrammarWebsite/static/js/main.4c26602c.chunk.js",
+    "main.js.map": "/polishGrammarWebsite/static/js/main.4c26602c.chunk.js.map",
     "runtime-main.js": "/polishGrammarWebsite/static/js/runtime-main.5ebf6109.js",
     "runtime-main.js.map": "/polishGrammarWebsite/static/js/runtime-main.5ebf6109.js.map",
     "static/js/2.be921353.chunk.js": "/polishGrammarWebsite/static/js/2.be921353.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5ebf6109.js",
     "static/js/2.be921353.chunk.js",
     "static/css/main.2ae47eeb.chunk.css",
-    "static/js/main.9c51e542.chunk.js"
+    "static/js/main.4c26602c.chunk.js"
   ]
 }
