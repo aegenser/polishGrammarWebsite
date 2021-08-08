@@ -344,6 +344,28 @@
         "miejscownik": "paniach",
         "wołacz": "panie"
       }
+    },
+    {
+      "is_pluralization_execption": false,
+      "is_declension_execption": false,
+      "singular": {
+        "mianownik": "kawa",
+        "dopełniacz": "kawy",
+        "celownik": "kawie",
+        "biernik": "kawę",
+        "narzędnik": "kawą",
+        "miejscownik": "kawie",
+        "wołacz": "kawo"
+      },
+      "plural": {
+        "mianownik": "kawy",
+        "dopełniacz": "kaw",
+        "celownik": "kawom",
+        "biernik": "kawy",
+        "narzędnik": "kawami",
+        "miejscownik": "kawach",
+        "wołacz": "kawy"
+      }
     }
   ],
   "neuter" : [

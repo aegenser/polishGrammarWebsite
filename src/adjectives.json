@@ -256,5 +256,48 @@
       "miejscownik": "szczęśliwych"
     },
     "masc_inan_biernik": "szczęśliwy"
+  },
+  {
+    "masculine": {
+      "mianownik": "silny",
+      "dopełniacz": "silnego",
+      "celownik": "silnemu",
+      "biernik": "silnego",
+      "narzędnik": "silnym",
+      "miejscownik": "silnym"
+    },
+    "neuter": {
+      "mianownik": "silne",
+      "dopełniacz": "silnego",
+      "celownik": "silnemu",
+      "biernik": "silne",
+      "narzędnik": "silnym",
+      "miejscownik": "silnym"
+    },
+    "feminine": {
+      "mianownik": "silna",
+      "dopełniacz": "silnej",
+      "celownik": "silnej",
+      "biernik": "silną",
+      "narzędnik": "silną",
+      "miejscownik": "silnej"
+    },
+    "virile": {
+      "mianownik": "silni",
+      "dopełniacz": "silnych",
+      "celownik": "silnym",
+      "biernik": "silnych",
+      "narzędnik": "silnymi",
+      "miejscownik": "silnych"
+    },
+    "nonvirile": {
+      "mianownik": "silne",
+      "dopełniacz": "silnych",
+      "celownik": "silnym",
+      "biernik": "silne",
+      "narzędnik": "silnymi",
+      "miejscownik": "silnych"
+    },
+    "masc_inan_biernik": "silny"
   }
 ]
